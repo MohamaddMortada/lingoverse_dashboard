@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lingoverse_dashboard/dashboard_page.dart';
+import 'package:lingoverse_dashboard/password_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,7 +11,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: DashboardPage()
+      debugShowCheckedModeBanner: false,
+      home: PasswordPage(), 
     );
   }
 }
